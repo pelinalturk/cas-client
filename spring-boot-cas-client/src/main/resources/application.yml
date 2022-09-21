@@ -1,0 +1,14 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: 8888
+  tomcat:
+    uri-encoding: UTF-8
+  servlet:
+    context-path: /cas-client
+cas:
+  cas-server-login-url: http://localhost:8080/CAS/login
+  cas-server-url-prefix: http://localhost:8080/CAS
+  cas-server-logout-url: http://localhost:8080/CAS/logout
+  service-url: http://localhost:8888
